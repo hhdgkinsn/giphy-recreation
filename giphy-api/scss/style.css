@@ -1,0 +1,127 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: auto;
+  background-color: #121212;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  margin: auto;
+  padding: 0px 30px;
+  padding-top: 30px;
+}
+
+.header > div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+}
+
+.header > div:first-child img {
+  height: 60px;
+}
+
+.header > div:first-child h3 {
+  color: #fff;
+  font-size: 14px;
+}
+
+.header > div:nth-child(2) {
+  width: 70%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header > div:nth-child(2) .category {
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 0px 10px;
+  border-bottom: solid lightgreen 4px;
+}
+
+.input-wrapper {
+  padding: 5px 0px 50px 0px;
+  width: 60%;
+  margin: auto;
+}
+
+.input-wrapper > form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input-wrapper input:nth-child(1) {
+  width: 100%;
+  border: solid lightgreen 1.5px;
+  padding: 10px;
+  color: slategray;
+  font-size: 18px;
+  height: 40px;
+}
+
+.input-wrapper input:nth-child(2) {
+  background-color: lightgreen;
+  border: none;
+  padding: 0px 10px;
+  padding-bottom: 5px;
+  color: darkslategray;
+  font-size: 25px;
+  text-align: center;
+  height: 40px;
+}
+
+.img-wrapper {
+  height: auto;
+  width: 100%;
+  padding: 20px 150px;
+  -webkit-column-count: 4;
+          column-count: 4;
+}
+
+.img-wrapper .gif {
+  margin: 5px;
+}
+/*# sourceMappingURL=style.css.map */
